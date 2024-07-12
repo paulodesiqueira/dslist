@@ -24,5 +24,7 @@ public class GameListService {
 		return result.stream().map(x -> new GameListDTO(x)).toList();
 	
 	}
+	
+	
 
 }
